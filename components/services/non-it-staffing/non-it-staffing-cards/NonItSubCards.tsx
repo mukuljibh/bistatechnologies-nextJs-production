@@ -2,7 +2,7 @@
 import { nonItSubConfig } from "../config/nonItStaffingConfig"
 import useObserver from "@/shared/hooks/useObserver"
 import Card from "@/components/ui/merged_components/service-cards/Card"
-import '../animations/NonitStaffingAnimation.css'
+import '../animations/nonitStaffingAnimation.css'
 export default function NonItSubCards() {
     const { isCardVisible } = useObserver('nonItStaffing', 0.7, ['opacity-100'])
     return (

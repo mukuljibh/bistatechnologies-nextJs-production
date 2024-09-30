@@ -1,11 +1,12 @@
 
 import CompanyCard from "./contact-card/CompanyCard"
 import ContactForm from "./contact-form/ContactForm"
+import Image from "next/image"
 export default function ContactUs() {
 
     return (
         <>
-            <img className="w-full" src="contact-us.jpg" alt="contact"></img>
+            <Image className="w-full" src="contact-us.jpg" alt="contact" width="2000" height="500" />
             <CompanyCard />
             <ContactForm />
         </>
