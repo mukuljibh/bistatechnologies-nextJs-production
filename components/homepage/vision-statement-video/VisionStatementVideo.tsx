@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import Typewriter from '../TypeWriter'
+import Typewriter from './TypeWriter'
 export default function VisionStatementVideo() {
     return (
         <header className=" relative flex justify-center items-center  w-full min-h-screen ">
