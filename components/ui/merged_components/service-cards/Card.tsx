@@ -9,7 +9,7 @@ export type cardsProps = {
 //${css} ${animating ? 'opacity-1 ' : 'opacity-0 -translate-x-7 '}
 export default function Card({ heading, description, imgSrc, css, alt }: cardsProps) {
     return (
-        <article className={`${css}  cursor-default opacity-0 z-30 bg-white shadow-md rounded-xl lg:w-72 duration-500 border-white `}>
+        <article className={`${css} cursor-default opacity-0 z-30 bg-white shadow-md rounded-xl lg:w-72 duration-500 border-white `}>
             <div className={`p-5`}>
                 <div className="lg:w-32 lg:h-32 w-20 h-20 ">
                     <Image className="w-full h-full object-cover border  border-black rounded-full"

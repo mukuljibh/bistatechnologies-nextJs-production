@@ -4,11 +4,11 @@ import useObserver from "@/shared/hooks/useObserver"
 import Card from "@/components/ui/merged_components/service-cards/Card"
 import '../animations/nonItStaffingAnimation.css'
 export default function NonItSubCards() {
-    const { isCardVisible } = useObserver('nonItStaffing', 0.7, ['opacity-100'])
+    const { isCardVisible } = useObserver('nonItStaffing', 0.25, ['opacity-100'])
     return (
         <div className="bg-purple-50 py-20 space-y-10">
             <h1 className="text-3xl text-gray-700 text-center font-semibold">Scale Up Your Team The Way You Want</h1>
-            <div className={`nonItStaffing  lg:flex  justify-center ${isCardVisible && 'nonItSubCard'} gap-16 lg:space-y-0 space-y-10`}>
+            <div className={`nonItStaffing lg:flex px-5 justify-center ${isCardVisible && 'nonItSubCard'} gap-16 lg:space-y-0 space-y-10`}>
                 {nonItSubConfig.map((data, index) => {
                     return (
                         <Card
