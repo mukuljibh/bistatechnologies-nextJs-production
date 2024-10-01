@@ -7,7 +7,7 @@ import "./animations/objectAnimation.css"
 import "./animations/ourServicesAnimation.css"
 
 export default function OurServices() {
-    const { isCardVisible } = useObserver('ourServices', 0.7, ['opacity-100'])
+    const { isCardVisible } = useObserver('ourServices', 0.25, ['opacity-100'])
     return (
         <section className=" relative flex flex-wrap gap-16 justify-center py-32 bg-purple-50 lg:px-20 px-5 ">
             {/* Background floating objects */}

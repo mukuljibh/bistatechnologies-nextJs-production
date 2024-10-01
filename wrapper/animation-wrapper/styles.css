@@ -1,13 +1,16 @@
 @keyframes fadeInOut {
     0% {
-        opacity: 0;
+        transform: translateX(-250vh);
     }
 
     100% {
         opacity: 1;
+        transform: translateX(0vh);
+
+
     }
 }
 
 .divs {
-    animation: fadeInOut 1200ms forwards;
+    animation: fadeInOut 1200ms;
 }

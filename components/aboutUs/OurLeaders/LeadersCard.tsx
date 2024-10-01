@@ -22,7 +22,7 @@ export default function LeadersCard() {
                     </div>
                 </div>
             </div >
-            <div className='text-center'>
+            <div className='text-center border-t-2 border-black'>
                 <h1 className='font-bold text-2xl text-slate-800 '>Vipul Bhatia</h1>
                 <h2 className=' text-zinc-600 font-semibold'>Co-founder & Managing Director</h2>
             </div>

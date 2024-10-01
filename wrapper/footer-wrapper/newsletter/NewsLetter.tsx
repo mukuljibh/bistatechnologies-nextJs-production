@@ -13,7 +13,7 @@ export default function NewsLetter() {
                 <source src="/homepage/banner.webm" type="video/webm" />
             </video>
 
-            <div className="md:absolute lg:top-20 top-10  text-center lg:p-5 p-2 lg:space-y-4 space-y-2 rounded-lg">
+            <div className="lg:absolute lg:block hidden lg:top-20 top-10  text-center lg:p-5 p-2 lg:space-y-4 space-y-2 rounded-lg">
                 <h2 className="text-slate-800 font-bold lg:text-3xl text-lg ">Subscribe to Bista Technologies Newsletter</h2>
                 <p className="lg:text-lg text-slate-500 text-xs">
                     Be the first to learn about updates, new features, and other exciting news! <br />
