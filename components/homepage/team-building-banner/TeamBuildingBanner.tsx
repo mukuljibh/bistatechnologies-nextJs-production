@@ -4,9 +4,9 @@ import "./animation.css"
 import Image from "next/image"
 import useObserver from "@/shared/hooks/useObserver"
 export default function TeamBuildingBanner() {
-    useObserver("team-building-banner", 0.5, ["opacity-100", "gap-x-0"])
+    useObserver("team-building-banner", 0.4, ["opacity-100", "gap-x-0"])
     return (
-        <section className="relative ">
+        <section className="relative">
             {/*floating object animation*/}
             <ul className='TeamBuildingBanner -z-10 absolute '>
                 <li></li>
@@ -30,7 +30,7 @@ export default function TeamBuildingBanner() {
                     </p>
                 </div>
 
-                <div className={`lg:w-2/5 h-full px-1 py-12 `}>
+                <div className={`lg:w-2/5 h-full px-1 py-12  `}>
                     <Image className="w-full lg:h-full object-cover  rounded-2xl "
                         src="/homepage/team-building-banner/1.webp"
                         alt="Team Building Banner"
