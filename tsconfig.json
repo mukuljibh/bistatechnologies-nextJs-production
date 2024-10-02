@@ -32,7 +32,8 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "contexts/ScreenSizeProvider.ts"
+    "contexts/ScreenSizeProvider.ts",
+    "components/solutions/staffing-solutions/staffing-sol-cards"
   ],
   "exclude": [
     "node_modules"

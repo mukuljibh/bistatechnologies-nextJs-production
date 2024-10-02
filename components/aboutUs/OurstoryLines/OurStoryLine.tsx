@@ -1,5 +1,5 @@
 import { OurStory, Storydetail, Keyheighlights } from './config/OurStory';
-
+import Image from 'next/image';
 export default function OurStoryLine() {
     return (
         <div className="container mx-auto px-4 lg:px-12">
@@ -12,10 +12,12 @@ export default function OurStoryLine() {
             <div className="max-w-screen-lg mx-auto shadow-lg p-5 sm:p-8 bg-white">
                 <div className="rounded-lg overflow-hidden shadow-md flex flex-col max-w-xl mx-auto transition-transform duration-300 transform hover:scale-105 hover:shadow-lg">
                     <a href="#">
-                        <img
+                        <Image
                             className="w-full h-72 object-cover rounded-t-lg transition-transform duration-300 transform hover:scale-105"
                             src="/about-us/our-storyline/1.jpg"
                             alt="Bista Technologies Image"
+                            width="500"
+                            height="200"
                         />
                     </a>
 
@@ -57,11 +59,13 @@ export default function OurStoryLine() {
                 ))}
             </div>
 
-            <div className="flex flex-col md:flex-row items-center rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 w-full mb-10">
-                <img
+            <div className="flex flex-col md:flex-row items-center rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 w-full mb-2">
+                <Image
                     className="object-cover w-full h-64 md:w-64 md:h-full transition-transform duration-300 transform hover:scale-105"
                     src="/about-us/our-storyline/2.jpg"
                     alt="Key Highlights"
+                    width="200"
+                    height="200"
                 />
                 <div className="flex flex-1 flex-col justify-between p-8 text-gray-800">
                     <h5 className="text-3xl font-semibold text-sky-600 mb-4">

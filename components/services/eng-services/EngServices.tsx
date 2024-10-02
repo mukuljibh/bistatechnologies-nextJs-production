@@ -1,7 +1,6 @@
 import EngServicesCards from "./eng-services-cards/EngServicesCards"
 import EngSubCard from "./eng-services-cards/EngSubCard"
 import Image from "next/image"
-import './animations/engServicesAnimation.css'
 export default function EngServices() {
     return (
         <div className=" bg-slate-50 ">

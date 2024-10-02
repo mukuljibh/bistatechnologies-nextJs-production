@@ -4,7 +4,7 @@ import "./animation.css"
 import Image from "next/image"
 import useObserver from "@/shared/hooks/useObserver"
 export default function TeamBuildingBanner() {
-    useObserver("team-building-banner", 0.4, ["gap-x-32", "opacity-100"])
+    useObserver("team-building-banner", 0.5, ["opacity-100", "gap-x-0"])
     return (
         <section className="relative ">
             {/*floating object animation*/}
@@ -14,8 +14,7 @@ export default function TeamBuildingBanner() {
                 <li></li>
                 <li></li>
             </ul>
-            <div className="team-building-banner lg:flex items-center justify-center opacity-0 gap-72 px-5 space-y-5 z-20 relative transition-all duration-1000 delay-75">
-
+            <div className={`team-building-banner z-20 relative lg:flex py-4 min-h-screen gap-32 opacity-0 duration-1000 delay-150 items-center justify-evenly px-5 space-y-4 lg:h-96 transition-all`}>
                 <div className=" lg:w-1/3 space-y-5">
                     <h1 className="text-4xl font-bold">
                         <span className="text-orange-500">Find, Evaluate,</span>  Hire The Right People With Us
@@ -31,13 +30,12 @@ export default function TeamBuildingBanner() {
                     </p>
                 </div>
 
-                <div className="lg:w-2/5 hover:lg:translate-x-3  transition-all duration-1000">
-                    <Image
-                        className="rounded-2xl"
-                        src="/homepage/team-building-banner/team-building.webp"
-                        width="1920"
-                        height="1080"
+                <div className={`lg:w-2/5 h-full px-1 py-12 `}>
+                    <Image className="w-full lg:h-full object-cover  rounded-2xl "
+                        src="/homepage/team-building-banner/1.webp"
                         alt="Team Building Banner"
+                        width="1430"
+                        height="939"
                     />
                 </div>
             </div>

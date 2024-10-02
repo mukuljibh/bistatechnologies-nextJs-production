@@ -17,12 +17,12 @@ export default function MainCard({ heading1, heading2, image, description, cardC
     return (
         <div className={`${cardCss}py-4 min-h-screen ${observingClass} gap-16 opacity-0 duration-1000 delay-150 items-center justify-evenly px-5 space-y-4 lg:h-96 transition-all`
         }>
-            <div className={`lg:w-2/5 h-full px-3 py-14`}>
-                <Image className="w-full lg:h-full object-cover rounded-lg "
+            <div className={`lg:w-2/5 h-full px-5 py-20`}>
+                <Image className="w-full lg:h-full object-cover  rounded-lg "
                     src={image.imageSrc}
                     alt={image.alt}
-                    width="800"
-                    height="600"
+                    width="1430"
+                    height="939"
                 />
             </div>
             <div className={`max-w-2xl space-y-3`}>
