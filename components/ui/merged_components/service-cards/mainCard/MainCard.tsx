@@ -15,9 +15,9 @@ type mainCardProps = {
 export default function MainCard({ heading1, heading2, image, description, cardCss, headingCss, observingClass, finalTransition }: mainCardProps) {
     useObserver(observingClass, 0.25, [...finalTransition])
     return (
-        <div className={`${cardCss}py-4 min-h-screen ${observingClass} gap-16 opacity-0 duration-1000 delay-500 items-center justify-evenly px-5 space-y-4  lg:h-96 transition-all`
+        <div className={`${cardCss}py-4 min-h-screen ${observingClass} gap-16 opacity-0 duration-1000 delay-300 items-center justify-evenly px-5 space-y-4  lg:h-96 transition-all`
         }>
-            <div className={`lg:w-2/5 h-full px-5 py-20`}>
+            <div className={`lg:w-2/5 h-full px-5 py-20 `}>
                 <Image className="w-full lg:h-full object-cover  rounded-lg "
                     src={image.imageSrc}
                     alt={image.alt}
