@@ -64,12 +64,12 @@ export const obj: Record<string, pageProps> = {
     "/aboutUs/our-storyline": {
         heading: "About Us",
         subHeading: "Our Storyline",
-        image: { imageSrc: "/solutions/training-dev/bannerImage.webp", alt: "about us banner image" }
+        image: { imageSrc: "/about-us/our-storyline/bannerImage.webp", alt: "about us banner image" }
     },
     "/aboutUs/our-leaders": {
         heading: "About Us",
         subHeading: "Our Leaders",
-        image: { imageSrc: "/solutions/training-dev/bannerImage.webp", alt: "about us banner image" }
+        image: { imageSrc: "/about-us/our-leaders/bannerImage.webp", alt: "about us banner image" }
     },
 
 }

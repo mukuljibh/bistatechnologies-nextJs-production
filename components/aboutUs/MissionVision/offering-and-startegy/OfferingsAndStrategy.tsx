@@ -10,7 +10,7 @@ export default function OfferingsAndStrategy() {
                     return (
                         <div key={index} className="shadow-md  hover:shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] rounded-xl lg:w-1/3 space-y-3  p-4 hover:lg:-translate-y-5 transition-all duration-1000 ease-out  ">
                             <div className="w-14">
-                                <Image className="w-full h-full" src={item.image.imageSrc} alt={item.image.alt} width="0" height="0" />
+                                <Image className="w-full h-full" src={item.image.imageSrc} alt={item.image.alt} width="100" height="100" />
                             </div>
 
                             <h1 className="font-bold  text-lg text-blue-950 tracking-wider">{item.heading}</h1>
