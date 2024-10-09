@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://bistatechnologiesdev.vercel.app/
+Host: https://bistatechnologies.vercel.app/
 
 # Sitemaps
-Sitemap: https://bistatechnologiesdev.vercel.app/sitemap.xml
+Sitemap: https://bistatechnologies.vercel.app/sitemap.xml
