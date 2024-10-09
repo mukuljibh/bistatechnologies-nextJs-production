@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Bista Technologies Inc.',
     description: 'Bista Technologies Inc. connects businesses with top-tier talent worldwide, specializing in comprehensive staffing solutions across various industries.',
-    url: 'https://www.bistatechnologies.com',
+    url: 'https://bistatechnologiesdev.vercel.app/',
     images: [
       {
         url: '/bistaOG.jpeg',
