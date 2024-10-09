@@ -1,9 +1,5 @@
-# *
 User-agent: *
 Allow: /
+disallow: '/private/',
 
-# Host
-Host: https://bistatechnologies.vercel.app/
-
-# Sitemaps
 Sitemap: https://bistatechnologies.vercel.app/sitemap.xml
