@@ -9,6 +9,8 @@ export const metadata: Metadata = {
    and innovative services for growing businesses, including MSME support and team building`,
   keywords: `global staffing solutions, Bista Technologies, MSME support, hiring metrics, 
    core values, team building, business services, recruitment, software services`,
+  metadataBase: new URL('https://bistatechnologiesdev.vercel.app'), // Change to your production URL
+
   openGraph: {
     title: 'Bista Technologies Inc.',
     description: 'Bista Technologies Inc. connects businesses with top-tier talent worldwide, specializing in comprehensive staffing solutions across various industries.',
