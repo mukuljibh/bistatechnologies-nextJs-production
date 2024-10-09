@@ -9,7 +9,7 @@ export const metadata: Metadata = {
    and innovative services for growing businesses, including MSME support and team building`,
   keywords: `global staffing solutions, Bista Technologies, MSME support, hiring metrics, 
    core values, team building, business services, recruitment, software services`,
-  metadataBase: new URL('https://bistatechnologies.vercel.app'), // Change to your production URL
+  metadataBase: new URL('https://bistatechnologies.vercel.app'),
 
   openGraph: {
     title: 'Bista Technologies Inc.',
@@ -32,7 +32,9 @@ export const metadata: Metadata = {
     description: 'Bista Technologies Inc. connects businesses with top-tier talent worldwide, specializing in comprehensive staffing solutions across various industries.',
     images: ['/bistaOG.jpeg'],
   },
-
+  verification: {
+    google: "D3fWDMgMb0ruLt6fK3m2PFT_PEr-XKZO55r7U1V9Ejw",
+  }
 };
 
 
