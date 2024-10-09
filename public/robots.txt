@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-disallow: '/private/',
-
+disallow:
 Sitemap: https://bistatechnologies.vercel.app/sitemap.xml
