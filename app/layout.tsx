@@ -10,26 +10,27 @@ export const metadata: Metadata = {
   keywords: `global staffing solutions, Bista Technologies, MSME support, hiring metrics, 
    core values, team building, business services, recruitment, software services`,
   openGraph: {
-    title: 'My Site',
-    description: 'This site demonstrates Open Graph meta tags.',
-    url: 'https://www.example.com',
+    title: 'Bista Technologies Inc.',
+    description: 'Bista Technologies Inc. connects businesses with top-tier talent worldwide, specializing in comprehensive staffing solutions across various industries.',
+    url: 'https://www.bistatechnologies.com',
     images: [
       {
-        url: 'https://www.example.com/image.jpg',
+        url: '/bistaOG.jpeg',
         width: 800,
         height: 600,
-        alt: 'Image description',
+        alt: 'Bista Technologies Logo',
       },
     ],
-    siteName: 'My Site',
+    siteName: 'Bista Technologies Inc.',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'My Site',
-    description: 'This site demonstrates Open Graph meta tags.',
-    images: ['https://www.example.com/image.jpg'],
+    title: 'Bista Technologies Inc.',
+    description: 'Bista Technologies Inc. connects businesses with top-tier talent worldwide, specializing in comprehensive staffing solutions across various industries.',
+    images: ['/bistaOG.jpeg'],
   },
+
 };
 
 
