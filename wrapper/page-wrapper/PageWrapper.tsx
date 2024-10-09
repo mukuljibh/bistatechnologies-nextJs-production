@@ -10,7 +10,7 @@ import { ReactNode } from "react"
 export default function PageWrapper({ children }: { children: ReactNode }) {
     const pathname = usePathname()
     useScrollToTop(pathname)
-    const excludedRoutes = ['/', '/career/job-postings', '/career/employee-login', 'career/employer-login', '/contact-us']
+    const excludedRoutes = ['/', '/career/job-postings', '/career/employee-login', '/career/employer-login', '/contact-us']
     return (
         <AnimationWrapper>
             {!excludedRoutes.includes(pathname)
@@ -20,7 +20,7 @@ export default function PageWrapper({ children }: { children: ReactNode }) {
                     image={obj[pathname]?.image}
                 />}
             {children}
-            {pathname == "/" ? <NewsLetter /> : <Image className="lg:h-128 w-full" src="/banner.gif" alt="banner" width="1200" height="500" />}
+            {pathname == "/" ? <NewsLetter /> : <Image unoptimized className="lg:h-128 w-full" src="/banner.gif" alt="banner" width="1200" height="500" />}
         </AnimationWrapper>
     )
 }

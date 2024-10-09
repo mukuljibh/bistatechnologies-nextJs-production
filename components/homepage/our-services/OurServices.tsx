@@ -1,17 +1,12 @@
-'use client'
-import useObserver from "@/shared/hooks/useObserver"
-import { ourServicesData } from "../config/homepage.config"
-import Card from "@/components/ui/merged_components/service-cards/Card"
 import AnimationCom from "./AnimationCom"
 import "./animations/objectAnimation.css"
-import "./animations/ourServicesAnimation.css"
-
+import OurServicesCards from "./our-services-cards/OurServicesCards"
 export default function OurServices() {
-    const { isCardVisible } = useObserver('ourServices', 0.25, ['opacity-100'])
+    console.log("services server")
     return (
         <section className=" relative flex flex-wrap gap-16 justify-center py-32 bg-purple-50 lg:px-20 px-5 ">
             {/* Background floating objects */}
-            {isCardVisible && <AnimationCom />}
+            <AnimationCom />
             {/* Background Gradient design that is white cicle at the left top most */}
             <div className="lg:block hidden absolute w-2/5 h-3/5 rounded-full  -top-32  -left-32 bg-gradient-to-r from-pink-50 to-white" aria-hidden="true"></div>
             {/* Title and Description */}
@@ -23,21 +18,7 @@ export default function OurServices() {
                     in achieving their business objectives.
                 </p>
             </header>
-            <div className={`ourServices  lg:flex ${isCardVisible && 'servicesCard'} gap-16 lg:space-y-0 space-y-10`}>
-                {ourServicesData.map((data, index) => {
-                    return (
-                        <Card
-                            key={index}
-                            heading={data.heading}
-                            description={data.description}
-                            imgSrc={data.image.imageSrc}
-                            alt={data.image.alt}
-                            css={data.css}
-                        />
-                    )
-
-                })}
-            </div>
+            <OurServicesCards />
 
         </section >
     )

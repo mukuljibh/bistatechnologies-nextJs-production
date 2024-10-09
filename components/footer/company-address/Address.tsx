@@ -1,10 +1,11 @@
 import Link from "next/link"
+import Image from "next/image"
 export default function Address() {
     const emails = ["info@bistatechnologies.com", "support@bistatechnologies.com", "hr@bistatechnologies.com", "operations@bistatechnologies.com"]
     return (
         <section className="space-y-3 ">
             <div className="space-y-5">
-                <Link href="/"><img src="/logo.png" width="224" height="56" alt="bista technologies logo" /></Link>
+                <Link href="/"><Image src="/logo.png" width="224" height="56" alt="bista technologies logo" /></Link>
                 <h1 className=" text-lg text-orange-500 font-semibold">Headquaters</h1>
             </div>
 

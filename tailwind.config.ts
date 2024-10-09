@@ -9,6 +9,7 @@ const config: Config = {
     "./wrapper/**/*.{js,ts,jsx,tsx,mdx}",
     "./global/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+
   theme: {
     extend: {
       scale: {

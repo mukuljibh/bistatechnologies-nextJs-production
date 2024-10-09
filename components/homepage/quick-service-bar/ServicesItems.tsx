@@ -1,3 +1,4 @@
+import Image from "next/image"
 type ServicesItemsProps = {
     item: {
         label: string,
@@ -12,12 +13,12 @@ export default function ServicesItems({ item }: ServicesItemsProps) {
             role="listitem"
             aria-label={item.label}
             className={`flex flex-col items-center gap-2 pr-3 transition-all duration-700`}>
-            <img
+            <Image
                 className="lg:w-10 w-8"
                 src={item.image.imageSrc}
                 alt={item.image.alt}
                 width="40"
-                height="40"
+                height="20"
             />
             <h2 className="text-sm">{item.label}</h2>
         </div>

@@ -26,7 +26,7 @@ export const ourServicesData = [
 ]
 
 export const hiringData = [{
-    label: "Resume Uploaded", counting: 400, imgSrc: "https://www.opusing.com/images/icons/Resume-Uploaded.png",
+    label: "Resume Uploaded", counting: 400, imgSrc: "/homepage/hiring-metric/1.png",
     styles: {
         imageBG: "bg-sky-700",
         text: "text-sky-700",
@@ -35,7 +35,7 @@ export const hiringData = [{
     }
 },
 {
-    label: "Open Position", counting: 90, imgSrc: "https://www.opusing.com/images/icons/Open-Job-Positions.png",
+    label: "Open Position", counting: 90, imgSrc: "/homepage/hiring-metric/2.png",
     styles: {
         extras: "lg:translate-y-5",
         imageBG: "bg-orange-500",
@@ -46,7 +46,7 @@ export const hiringData = [{
     }
 },
 {
-    label: "Overall Selection", counting: 100, imgSrc: " https://www.opusing.com/images/icons/Overall-Selections.png",
+    label: "Overall Selection", counting: 100, imgSrc: "/homepage/hiring-metric/3.png",
     styles: {
         imageBG: "bg-green-500",
         text: "text-green-500",

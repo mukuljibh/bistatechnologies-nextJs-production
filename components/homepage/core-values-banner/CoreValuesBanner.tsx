@@ -1,3 +1,4 @@
+import Image from "next/image"
 export default function CoreValuesBanner() {
     return (
         <section className="py-16 flex justify-center bg-slate-50 ">
@@ -8,9 +9,9 @@ export default function CoreValuesBanner() {
                 >
                     CULTURE | INNOVATION | OPPORTUNITY | TRUST
                 </h2>
-                <img src="https://www.bistatechnologies.com/homepage/core-values-banner/1.webp"
+                <Image src="/homepage/core-values-banner/1.webp"
                     className="rounded-lg object-cover lg:h-96 h-42 w-full"
-                    width="1200"
+                    width="1920"
                     height="800"
                     alt="core values bannerS"
                 />

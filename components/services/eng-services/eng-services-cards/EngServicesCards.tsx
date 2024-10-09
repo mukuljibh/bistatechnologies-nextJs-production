@@ -3,7 +3,7 @@ import { mainCardsConfig } from "../config/engServicesConfig"
 import MainCard from "@/components/ui/merged_components/service-cards/mainCard/MainCard"
 export default function EngServicesCards() {
     return (
-        <div>
+        <div className="">
             {mainCardsConfig.map(({ heading1, heading2, image, description, cardCss, headingCss }, index) => {
                 return (
                     <MainCard
@@ -19,6 +19,7 @@ export default function EngServicesCards() {
                     />
                 )
             })}
+
         </div>
     )
 }
