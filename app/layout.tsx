@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import NavBar from "@/components/navigation-bar/NavBar";
 import Footer from "@/components/footer/Footer";
-
+import PageWrapper from "@/wrapper/page-wrapper/PageWrapper";
 export const metadata: Metadata = {
   title: "Global Staffing Solution | Bista Technologies Inc",
   description: `Discover Bista Technologies' global staffing solutions, core values,
@@ -49,7 +49,10 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <NavBar />
-        {children}
+        <PageWrapper>
+          {children}
+        </PageWrapper>
+
         <Footer />
       </body>
     </html >

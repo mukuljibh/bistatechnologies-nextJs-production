@@ -12,7 +12,7 @@ export default function PageWrapper({ children }: { children: ReactNode }) {
     useScrollToTop(pathname)
     const excludedRoutes = ['/', '/career/job-postings', '/career/employee-login', '/career/employer-login', '/contact-us']
     return (
-        <AnimationWrapper>
+        <AnimationWrapper key={pathname}>
             {!excludedRoutes.includes(pathname)
                 && <Banner
                     heading={obj[pathname]?.heading}
