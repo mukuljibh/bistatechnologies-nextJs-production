@@ -47,6 +47,33 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Bista Technologies",
+              "url": "https://bistatechnologies.vercel.app/",
+              "logo": "https://yourdomain.com/path-to-logo.png",
+              "description": "Bista Technologies offers innovative solutions for businesses, specializing in ERP, CRM, and Cloud technologies.",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+91-9808283188",
+                "contactType": "Customer Support",
+                "areaServed": "Global",
+                "availableLanguage": "English",
+              },
+              "sameAs": [
+                "https://www.facebook.com/yourprofile",
+                "https://www.twitter.com/yourprofile",
+                "https://www.linkedin.com/in/yourprofile",
+              ],
+            }),
+          }}
+        />
+      </head>
       <body>
         <NavBar />
         <PageWrapper>
