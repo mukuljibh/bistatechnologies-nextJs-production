@@ -56,7 +56,7 @@ export default function RootLayout({
               "@type": "Organization",
               "name": "Bista Technologies",
               "url": "https://bistatechnologies.vercel.app/",
-              "logo": "https://yourdomain.com/path-to-logo.png",
+              "logo": "/bistaOG.jpeg",
               "description": "Bista Technologies offers innovative solutions for businesses, specializing in ERP, CRM, and Cloud technologies.",
               "contactPoint": {
                 "@type": "ContactPoint",
@@ -66,9 +66,8 @@ export default function RootLayout({
                 "availableLanguage": "English",
               },
               "sameAs": [
-                "https://www.facebook.com/yourprofile",
-                "https://www.twitter.com/yourprofile",
-                "https://www.linkedin.com/in/yourprofile",
+                "https://www.instagram.com/official_bistatechnologiesinc/",
+                "https://www.linkedin.com/company/bistatechnologies/",
               ],
             }),
           }}
